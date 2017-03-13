@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.2//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hy.loong.dao.MathDao">
+<update id="updateMath" >
+UPDATE math SET sorce = 90 WHERE type = 1
+</update>
+
+<select id="findAllNum" resultType="Integer">
+SELECT COUNT(*) FROM math
+</select>
+
+<select id="getMathPage"  resultType="com.hy.loong.pojo.Math">
+SELECT * FROM math LIMIT #{pageNo},#{pageSizeInt}
+</select>	
+
+</mapper>
