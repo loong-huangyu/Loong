@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.2//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hy.loong.dao.MathDao">
 <update id="updateMath" >
-UPDATE math SET sorce = 90 WHERE type = 1
+UPDATE math SET score = 90 WHERE type = 1
 </update>
 
 <select id="findAllNum" resultType="Integer">
