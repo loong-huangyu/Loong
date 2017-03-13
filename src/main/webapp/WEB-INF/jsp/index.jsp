@@ -19,6 +19,7 @@
 		账号：<input type="text" name="username" /> 密码：<input type="password"
 			name="password"> <input type="submit" value="提交">
 	</form>
+	
 	<div id="container" style="height: 500px; width: 600px"></div>
 	<script type="text/javascript">
 		var map = new BMap.Map("container"); // 创建地图实例  
