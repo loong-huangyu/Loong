@@ -21,7 +21,7 @@
 <c:forEach items="${pages.pageDatas}" var="math">
 <tr>
 <td class="hidden-480">${math.id}</td>
-<td class="hidden-480">${math.sorce }</td>
+<td class="hidden-480">${math.score }</td>
 <td class="hidden-480">${math.type }</td>
 </tr>
 </c:forEach>

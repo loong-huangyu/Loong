@@ -2,7 +2,7 @@ package com.hy.loong.pojo;
 
 public class Math {
 	private Integer id;
-	private String Sorce;
+	private String score;
 	private String type;
 	public Integer getId() {
 		return id;
@@ -10,11 +10,12 @@ public class Math {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-	public String getSorce() {
-		return Sorce;
+
+	public String getScore() {
+		return score;
 	}
-	public void setSorce(String sorce) {
-		Sorce = sorce;
+	public void setScore(String score) {
+		this.score = score;
 	}
 	public String getType() {
 		return type;
