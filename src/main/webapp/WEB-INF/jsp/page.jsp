@@ -26,6 +26,7 @@
 </tr>
 </c:forEach>
 </table>
+
 <c:if test="${pages.isHavePrePage == true }">
 <a href='<%=basePath%>math/pages?nowPage=${pages.pageIndex-1}&pageSize=5'>上一页</a>
 </c:if>

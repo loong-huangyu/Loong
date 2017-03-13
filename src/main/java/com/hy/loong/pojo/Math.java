@@ -4,7 +4,7 @@ public class Math {
 	private Integer id;
 	private String score;
 	private String type;
-	public Integer getId() {
+	public Integer getId() { 
 		return id;
 	}
 	public void setId(Integer id) {
